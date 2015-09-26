@@ -1,0 +1,35 @@
+{
+  "name": "visual-timeline-desktop",
+  "version": "1.0.0",
+  "description": "Visual Timeline as a desktop version",
+  "main": "index.js",
+  "dependencies": {
+      "cluster-painter":  "^1.0.1",
+    "jquery": "^2.1.4",
+    "time-cluster": "^0.0.1",
+    "vis": "^4.8.2",
+    "visual-data": "^0.0.4"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify-css": "^0.7.1",
+    "browserify-fs": "^1.0.0"},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phalanstere/VisualTimelineStandalone.git"
+  },
+  "keywords": [
+    "visual",
+    "timeline",
+    "desktop"
+  ],
+  "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phalanstere/VisualTimelineStandalone/issues"
+  },
+  "homepage": "https://github.com/Phalanstere/VisualTimelineStandalone#readme"
+}
