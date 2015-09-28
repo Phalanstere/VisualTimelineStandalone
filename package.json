@@ -1,13 +1,15 @@
 {
   "name": "visual-timeline-desktop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Visual Timeline as a desktop version",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
-      "cluster-painter":  "^1.0.1",
+    "cluster-painter":  "^1.0.14",
     "jquery": "^2.1.4",
     "time-cluster": "^0.0.1",
     "vis": "^4.8.2",
+    "gsap": "^1.16.1",
+    "nw-builder": "^2.0.2",
     "visual-data": "^0.0.4"
   },
   "devDependencies": {
@@ -15,7 +17,9 @@
     "browserify-css": "^0.7.1",
     "browserify-fs": "^1.0.0"},
   "scripts": {
-    "test": "test"
+    "test": "test",
+     "start": "nw",
+     "packer": "node installer.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +30,25 @@
     "timeline",
     "desktop"
   ],
+    "window": {
+    "name": "VisualTimeline",
+    "version": "1.0.1",
+    "title": "VisualTimeline",
+    "frame": true,
+    "toolbar": true,
+    "height": 640,
+    "width": 1024,
+    "resizable": true
+  },
+   "packages": {
+    "version": "1.1.0",
+    "osx64": "https://github.com/Aluxian/WhatsApp-Desktop/releases/download/v/UnofficialWhatsApp.dmg",
+    "win32": "https://github.com/Aluxian/WhatsApp-Desktop/releases/download/v/UnofficialWhatsAppSetup.exe",
+    "linux32": "https://github.com/Aluxian/WhatsApp-Desktop/releases/download/v/UnofficialWhatsApp_linux32.deb",
+    "linux64": "https://github.com/Aluxian/WhatsApp-Desktop/releases/download/v/UnofficialWhatsApp_linux64.deb"
+  },
+  
+  
   "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
   "license": "MIT",
   "bugs": {

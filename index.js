@@ -1,6 +1,7 @@
 var util            = require("util");
 var $               = require('jquery');
 
+
 var VisualTimebar   = require('./lib/VisualTimebar.js');
 var ClusterPainter = require("cluster-painter");
 
