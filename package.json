@@ -35,9 +35,9 @@
     "version": "1.0.1",
     "title": "VisualTimeline",
     "frame": true,
-    "toolbar": true,
-    "height": 640,
-    "width": 1024,
+    "toolbar": false,
+    "height": 900,
+    "width": 1400,
     "resizable": true
   },
    "packages": {

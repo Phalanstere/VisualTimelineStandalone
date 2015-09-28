@@ -8,6 +8,8 @@
 
 <script type="text/javascript" src="lib/interface.js"></script>
 
+<link href="css/standalone.css" rel="stylesheet" type="text/css" />
+
 <link href="css/vis.min.css" rel="stylesheet" type="text/css" />
 <script src="lib/vis.min.js"></script>
 <script src="lib/bundle.min.js"></script>
@@ -15,22 +17,24 @@
 <link rel="stylesheet" href="node_modules/cluster-painter/css/clusterPainter.css">
 <link href="css/visualTimeline.css" rel="stylesheet" type="text/css" />
 
-<style>
 
-
-	
-</style>
+<script> 
+  var MyCluster; 
+  var MyTimeline = 777;
+</script>
 
 
 
 <body>
-	
-	<div id="scenery"></div>	
+
+    <div id = "dir">
+      <input id = "directory" type="file" webkitdirectory directory multiple/>
+    </div>
+	<div id="scenery"></div>
 	<div id = "timeline_trigger"></div>
 	<div id="visualization"></div>
-	
-	
+
+
 
 </body>
 </html>
- 

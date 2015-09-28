@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
 
     bar = new VisualTimebar.Bar(params);
-    
+    window.MyTimeline = bar;
     // now the cluster painter is produced
     
 
